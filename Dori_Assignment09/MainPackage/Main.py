@@ -1,8 +1,4 @@
-'''
-Created on Oct 20, 2022
-
-@author: User
-'''
+#main.py
 from DessertPackage.CupcakeClass import *
 from DessertPackage.SkittlesClass import *
 from DessertPackage.BrowniesClass import *
