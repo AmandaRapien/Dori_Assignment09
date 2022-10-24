@@ -21,3 +21,18 @@ print(cupcake.__str__())
 #This gets the flavor 
 cupcake.getFlavor()
 print(cupcake.flavor)
+
+skittles = Skittles("Original", 2)
+print(skittles.__str__())
+
+print(skittles.flavor) 
+
+#Negative Test
+skittles.setPrice(-3)
+#Positive Test
+skittles.setPrice(3)
+print(skittles.__str__())
+
+#This gets the flavor 
+skittles.getFlavor()
+print(skittles.flavor)
