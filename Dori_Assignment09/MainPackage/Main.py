@@ -1,3 +1,4 @@
+
 '''
 Created on Oct 24, 2022
 Name: Amanda Rapien, Aaron Paulson, Ben Truax, Matthew Lamb
@@ -10,6 +11,9 @@ modeling something in the real world, and collaborate on GitHub.
 Citations: N/A
 Anything else that's relevant:
 '''
+=======
+#main.py
+
 from DessertPackage.CupcakeClass import *
 from DessertPackage.SkittlesClass import *
 from DessertPackage.BrowniesClass import *
@@ -19,13 +23,13 @@ print(cupcake.__str__())
 
 print(cupcake.flavor) 
 
-#Negative Test
+#Negative Test Cupcake
 cupcake.setPrice(-3)
-#Positive Test
+#Positive Test Cupcake
 cupcake.setPrice(3)
 print(cupcake.__str__())
 
-#This gets the flavor 
+#This gets the cupcake flavor 
 cupcake.getFlavor()
 print(cupcake.flavor)
 
